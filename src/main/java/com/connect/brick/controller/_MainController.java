@@ -43,7 +43,7 @@ public class _MainController {
 	public String home(Model model, Authentication user) {
 		//model.addAttribute("index",false);
 		
-		return "redirect:" + RequestMappingConstants._MAIN_URL;
+		return "redirect:" + RequestMappingConstants._GOOGLE_FORM;
 	}
 	
 	@RequestMapping(value = RequestMappingConstants._MAIN_URL, method = RequestMethod.GET)
